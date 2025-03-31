@@ -1,0 +1,11 @@
+Assertions.cy.js
+cssSelectors.cy.js
+cypressAutomation.cy.js
+xPathLocators.cy.js
+node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress.env.json
+.cache/
+.vscode/
+.DS_Store
