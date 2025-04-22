@@ -407,7 +407,7 @@ describe('Suíte de Testes para o Site "Automation Exercise"', () => {
     cy.get('a[href="/login"]').click();
     cy.get("h2").contains("New User Signup!").should("be.visible");
     cy.get('input[placeholder="Name"]').type("Siegh");
-    cy.get('input[data-qa="signup-email"]').type("teste41@siegh.com");
+    cy.get('input[data-qa="signup-email"]').type("teste111@siegh.com");
     cy.get('button[data-qa="signup-button"]').click();
     cy.get("h2")
       .eq(0)
@@ -459,7 +459,7 @@ describe('Suíte de Testes para o Site "Automation Exercise"', () => {
     cy.get('a[href="/login"]').click();
     cy.get("h2").contains("New User Signup!").should("be.visible");
     cy.get('input[placeholder="Name"]').type("Siegh");
-    cy.get('input[data-qa="signup-email"]').type("teste34@siegh.com");
+    cy.get('input[data-qa="signup-email"]').type("teste121@siegh.com");
     cy.get('button[data-qa="signup-button"]').click();
     cy.get("h2")
       .eq(0)
